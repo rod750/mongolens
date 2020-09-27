@@ -1,0 +1,84 @@
+{
+  "env": {
+    "browser": true,
+    "es6": true,
+    "node": true
+  },
+  "extends": "eslint:recommended",
+  "globals": {
+    "Atomics": "readonly",
+    "SharedArrayBuffer": "readonly"
+  },
+  "parserOptions": {
+    "ecmaFeatures": {
+    "jsx": true
+    },
+    "ecmaVersion": 2018,
+    "sourceType": "module"
+  },
+  "rules": {
+    "max-lines": [
+      "warn",
+      {"max": 100, "skipBlankLines": true}
+    ],
+    "max-len": [
+      "warn",
+      { "code": 80 }
+    ],
+    "no-trailing-spaces": "error",
+    "no-console": [
+      "error",
+      { "allow": ["warn", "error", "info"] }
+    ],
+    "arrow-spacing": [
+      "error",
+      { "before": true, "after": true }
+    ],
+    "arrow-parens": [
+      "warn",
+      "as-needed"
+    ],
+    "space-in-parens": [
+      "error",
+      "never"
+    ],
+    "no-lonely-if": "error",
+    "dot-location": [
+      "error",
+      "property"
+    ],
+    "no-var": "warn",
+    "jsx-quotes": [
+      "error",
+      "prefer-double"
+    ],
+    "comma-style": [
+      "error",
+      "last"
+    ],
+    "comma-dangle": [
+      "error",
+      "never"
+    ],
+    "default-case": "error",
+    "no-redeclare": "error",
+    "no-useless-return": "error",
+    "prefer-arrow-callback": "error",
+    "prefer-const": "error",
+    "prefer-template": "error",
+    "dot-notation": "error",
+    "max-depth": [
+      "error",
+      3
+    ],
+    "quotes": [
+      "warn",
+      "double"
+    ],
+    "semi": [
+      "error",
+      "never",
+      { "omitLastInOneLineBlock": true }
+    ]
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "name": "mongolens",
+  "version": "0.0.1",
+  "description": "Prisma inspired database interface for Mongo",
+  "main": "dist/index.js",
+  "scripts": {
+    "prepare": "npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "./node_modules/.bin/babel src -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rod750/mongolens.git"
+  },
+  "keywords": [
+    "mongo",
+    "prisma",
+    "orm",
+    "mongoose",
+    "graphql"
+  ],
+  "author": "Rodrigo D. Cuervo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rod750/mongolens/issues"
+  },
+  "homepage": "https://github.com/rod750/mongolens#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.11.6",
+    "@babel/core": "^7.11.6",
+    "@babel/node": "^7.10.5",
+    "@babel/plugin-transform-runtime": "^7.11.5",
+    "@babel/polyfill": "^7.11.5",
+    "@babel/preset-env": "^7.11.5",
+    "@babel/runtime": "^7.11.2",
+    "apollo-server": "^2.18.1",
+    "graphql": "^15.3.0",
+    "graphql-compose": "^7.21.5",
+    "graphql-compose-mongoose": "^8.0.4",
+    "mongoose": "^5.10.7"
+  }
+}
