@@ -1,2 +1,2 @@
-export * from "./schema-builder"
+export * from "./schema-factory"
 export * from "./model-factory"
