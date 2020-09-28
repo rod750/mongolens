@@ -25,7 +25,7 @@ export class Mongolens {
     try {
       console.info("Establishing connection to database...")
       await mongoose.connect(
-        process.env.MONGO_CONNECTION_STRING, 
+        this._uris, 
         this._mongooseOptions
       )
       console.info("Connected to database.")
