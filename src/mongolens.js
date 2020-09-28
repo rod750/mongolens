@@ -47,10 +47,8 @@ export class Mongolens {
       return this._createHandler(schema)
     }
 
-    const apollo = new ApolloServer({
+    return new ApolloServer({
       schema: schema.buildSchema()
     });
-
-    return apollo.createHandler();
   }
 }
