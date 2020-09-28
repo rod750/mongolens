@@ -37,9 +37,9 @@ export class Mongolens {
 
   createHandler() {
     const schema = Object
-      .keys(schemaDefs)
+      .keys(this._schemaDefs)
       .reduce((schemaBuilder, key) => {
-        const schemaDef = schemaDefs[key]
+        const schemaDef = this._schemaDefs[key]
         return schemaFactory(schemaDef.name, schemaDef.tc)
       }, {})
 
