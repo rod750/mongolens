@@ -1,6 +1,6 @@
 {
   "name": "mongolens",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Prisma inspired database interface for Mongo",
   "main": "dist/index.js",
   "scripts": {
