@@ -30,7 +30,8 @@
     "graphql": "^15.3.0",
     "graphql-compose": "^7.21.5",
     "graphql-compose-mongoose": "^8.0.4",
-    "mongoose": "^5.10.7"
+    "mongoose": "^5.10.7",
+    "voca": "^1.4.0"
   },
   "devDependencies": {
     "@babel/cli": "^7.11.6",
